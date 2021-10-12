@@ -1,0 +1,831 @@
+/* This is a separate css file for media queries for responsive design */
+
+@media only screen and (max-device-width: 320px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .top_logo {
+    margin-left: -0.5em;
+  }
+
+  .top_logo a {
+    font-size: 1.2em;
+  }
+
+  .x a {
+    font-size: 1.5em;
+  }
+
+  .intro {
+    flex-direction: column;
+    margin: 6em 0em 0em 0em;
+    width: 100%;
+  }
+
+  .hi {
+    font-size: 3em;
+    margin-left: 0.2em;
+  }
+  .description {
+    font-size: 1.1em;
+  }
+
+  .services {
+    width: 100%;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+  }
+
+  .list {
+    flex-direction: column;
+    align-content: center;
+    margin: 0em 1em -2.5em 1em;
+    padding: 2em 0.3em 0.5em 0.3em;
+    width: 100%;
+  }
+
+  .service_description {
+    font-size: 1.2em;
+    line-height: normal;
+    margin-bottom: 2em;
+  }
+
+  .projects div {
+    flex-direction: column;
+    width: 100%;
+    margin: 0em 2em 0em 1em;
+  }
+  .mobile_heading {
+    font-size: 2.2em;
+    margin-bottom: -0.5em;
+  }
+
+  .mobile_description {
+    font-size: 1em;
+  }
+
+  .web_heading {
+    font-size: 2.2em;
+    margin-bottom: -0.5em;
+  }
+
+  .web_description {
+    font-size: 1em;
+  }
+
+  .web {
+    order: 2;
+    /* Altering the order on mobile version */
+  }
+
+  .project_two_image_container {
+    order: 1;
+    /* Altering the order on mobile version */
+  }
+
+  .design_heading {
+    font-size: 2.2em;
+    margin-bottom: -0.5em;
+  }
+
+  .design_description {
+    font-size: 1em;
+  }
+
+  .ready {
+    flex-direction: column;
+    width: 100%;
+    padding: 2em;
+  }
+
+  .ready_headline {
+    font-size: 1.5em;
+  }
+
+  .ready_body {
+    font-size: 1em;
+  }
+
+  .hire_button {
+    padding-top: 1em;
+    margin-left: -10em;
+  }
+
+  .hire_me {
+    padding: 0.7em 0.8em 0.7em 0.8em;
+  }
+
+  .bottom_logo {
+    margin: 0.5em 0.5em 1em 0.5em;
+  }
+
+  .bottom_logo a {
+    font-size: 1.2em;
+  }
+
+  .x2 a {
+    font-size: 1.5em;
+  }
+
+  .bottom_nav {
+    flex-direction: row;
+  }
+
+  .bottom_nav {
+    margin-right: 2em;
+  }
+
+  .nav_menu_bottom {
+    padding-left: 3em;
+  }
+  .bottom_menu_title {
+    font-size: 1em;
+  }
+
+  .bottom_nav_link a {
+    font-size: 0.9em;
+  }
+
+  .copyright {
+    font-size: 0.7em;
+    margin: 6em 0em 2em 1em;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .top_nav {
+    align-items: center;
+    min-width: 100%;
+  }
+
+  .top_logo {
+    margin-left: -0.5em;
+  }
+
+  .top_logo a {
+    font-size: 1.2em;
+  }
+
+  .x a {
+    font-size: 1.5em;
+  }
+
+  .nav_menu {
+    display: flex;
+    margin-right: 0.2em;
+  }
+
+  .nav_link {
+    padding: 0.2em;
+  }
+
+  .nav_link a {
+    font-size: 0.8em;
+  }
+
+  .hamburger {
+    margin-left: -10em;
+  }
+
+  .intro {
+    flex-direction: column;
+    margin: 6em 0.1em 0em 0.1em;
+    width: 100%;
+  }
+
+  .hi {
+    font-size: 3em;
+    margin-left: 0.2em;
+  }
+  .description {
+    font-size: 1.1em;
+  }
+
+  .services {
+    height: auto;
+    width: 100%;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+  }
+
+  .list {
+    flex-direction: column;
+    align-content: center;
+    margin: 0em 1em -2.5em 1em;
+    padding: 2em 0.3em 0.5em 0.3em;
+    width: 100%;
+  }
+
+  .service_title {
+    font-size: 1.7em;
+  }
+
+  .service_description {
+    font-size: 1.2em;
+    line-height: normal;
+    margin-bottom: 2em;
+  }
+
+  .projects div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0em 2em 0em 1em;
+  }
+  .mobile_heading {
+    font-size: 2.2em;
+    color: #23286b;
+    margin-bottom: -0.5em;
+  }
+
+  .mobile_description {
+    font-size: 1em;
+  }
+
+  .web_heading {
+    font-size: 2.2em;
+    margin-bottom: -0.5em;
+  }
+
+  .web_description {
+    font-size: 1em;
+  }
+
+  .web {
+    order: 2;
+  }
+
+  .project_two_image_container {
+    order: 1;
+  }
+
+  .design_heading {
+    font-size: 2.2em;
+    margin-bottom: -0.5em;
+  }
+
+  .design_description {
+    font-size: 1em;
+  }
+
+  .ready {
+    flex-direction: column;
+    width: 100%;
+    padding: 2em;
+  }
+
+  .ready_headline {
+    font-size: 1.5em;
+  }
+
+  .ready_body {
+    font-size: 1em;
+  }
+
+  .hire_button {
+    padding-top: 1em;
+    margin-left: -10em;
+  }
+
+  .hire_me {
+    padding: 0.7em 0.8em 0.7em 0.8em;
+    font-family: Arial;
+    font-size: 1em;
+  }
+
+  .bottom_logo {
+    margin: 0.5em 0.5em 1em 0.5em;
+  }
+
+  .bottom_logo a {
+    font-size: 1.2em;
+  }
+
+  .x2 a {
+    font-size: 1.5em;
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+  }
+
+  .bottom_nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bottom_nav {
+    margin-right: 2em;
+  }
+
+  .nav_menu_bottom {
+    padding-left: 3em;
+  }
+  .bottom_menu_title {
+    font-size: 1em;
+  }
+
+  .bottom_nav_link a {
+    font-size: 0.9em;
+  }
+
+  .copyright {
+    justify-content: center;
+    margin-left: 2em;
+    font-size: 0.7em;
+    margin: 6em 0em 2em 1em;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .top_nav {
+    align-items: center;
+    min-width: 100%;
+  }
+
+  .top_logo {
+    margin-left: -0.5em;
+  }
+
+  .top_logo a {
+    font-size: 1.4em;
+  }
+
+  .x a {
+    font-size: 1.7em;
+  }
+
+  .nav_menu {
+    margin-right: 0.2em;
+  }
+
+  .nav_link {
+    padding: 0.2em;
+  }
+
+  .nav_link a {
+    font-size: 0.8em;
+  }
+
+  .intro {
+    flex-direction: column;
+    margin: 6em 0.1em 0em 0.1em;
+    width: 100%;
+  }
+
+  .hi {
+    font-size: 3.5em;
+    margin-left: 0.2em;
+  }
+  .description {
+    font-size: 1.2em;
+  }
+  .image_one {
+    max-height: 350px;
+  }
+
+  .services {
+    height: auto;
+    width: 100%;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+  }
+
+  .list {
+    flex-direction: column;
+    align-content: center;
+    margin: 0em 1em -2.5em 1em;
+    padding: 2em 0.3em 0.5em 0.3em;
+    width: 100%;
+  }
+
+  .service_details {
+    height: auto;
+  }
+  .service_title {
+    font-size: 2.1em;
+  }
+
+  .service_description {
+    font-size: 1.3em;
+    margin-bottom: 2em;
+  }
+
+  .projects {
+    margin-left: 1em;
+  }
+
+  .projects div {
+    flex-direction: column;
+    width: 100%;
+    margin: 0em 0.5em 0em 0em;
+    align-self: center;
+  }
+
+  .image_two {
+    margin-top: -1.5em;
+    margin-bottom: -1.5em;
+    max-height: 350px;
+  }
+
+  .mobile_heading {
+    font-size: 2.5em;
+    margin-bottom: -0.5em;
+  }
+
+  .mobile_description {
+    font-size: 1.2em;
+  }
+
+  .image_three {
+    margin-top: -1.5em;
+    margin-bottom: -1.5em;
+    max-height: 350px;
+  }
+
+  .web_heading {
+    font-size: 2.5em;
+    margin-bottom: -0.5em;
+  }
+
+  .web_description {
+    font-size: 1.2em;
+  }
+
+  .image_four {
+    margin-top: -1.5em;
+    margin-bottom: -1.5em;
+    max-height: 350px;
+  }
+
+  .web {
+    order: 2;
+  }
+
+  .project_two_image_container {
+    order: 1;
+  }
+
+  .design_heading {
+    font-size: 2.5em;
+    margin-bottom: -0.5em;
+  }
+
+  .design_description {
+    font-size: 1.2em;
+  }
+
+  .project_four_image_container {
+    order: 2;
+  }
+
+  .design {
+    order: 1;
+  }
+
+  .learn_more {
+    font-size: 1em;
+    margin-top: -0.5em;
+  }
+
+  .ready {
+    justify-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 2em;
+    margin-top: 1em;
+  }
+
+  .ready_headline {
+    font-size: 2em;
+  }
+
+  .ready_body {
+    font-size: 1.2em;
+  }
+
+  .hire_button {
+    padding-top: 1em;
+    margin-left: -10em;
+  }
+
+  .bottom_logo {
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    display: flex;
+  }
+
+  .bottom_logo a {
+    font-size: 1.3em;
+  }
+
+  .x2 a {
+    font-size: 1.6em;
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+  }
+
+  .bottom_nav {
+    flex-direction: row;
+  }
+
+  .bottom_nav {
+    margin-right: 2em;
+  }
+
+  .nav_menu_bottom {
+    padding-left: 3em;
+  }
+  .bottom_menu_title {
+    font-size: 1.3em;
+  }
+
+  .bottom_nav_link a {
+    font-size: 1.2em;
+  }
+
+  .copyright {
+    width: 100%;
+    font-size: 0.8em;
+    margin: 4em 0em 1em 0em;
+  }
+}
+
+/* hamburger menu section */
+@media screen and (max-device-width: 768px) {
+  .top_nav {
+    margin-top: 0.1em;
+  }
+  .nav_menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav_menu.active {
+    left: 0;
+  }
+
+  .nav_link {
+    padding: 0em;
+  }
+
+  .nav_link {
+    margin: 1rem 0;
+  }
+
+  .nav_link a {
+    font-size: 1em;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .top_nav {
+    align-items: center;
+    margin-top: -0.5em;
+  }
+
+  .top_logo {
+    margin-left: -0.5em;
+  }
+
+  .top_logo a {
+    font-size: 1.5em;
+  }
+
+  .x a {
+    font-size: 1.7em;
+  }
+
+  .nav_menu {
+    margin-right: 0.2em;
+  }
+
+  .nav_link {
+    padding: 1em;
+  }
+
+  .nav_link a {
+    font-size: 1.4em;
+  }
+
+  .nav_link a:hover {
+    color: #482ff7;
+  }
+
+  .intro {
+    margin: 6em 0em 0em 2em;
+    width: 100%;
+  }
+
+  .hi {
+    font-size: 4em;
+    margin-left: 0.2em;
+  }
+  .description {
+    font-size: 1.3em;
+  }
+  .image_one {
+    max-height: 400px;
+  }
+
+  .list {
+    margin-left: 1em;
+    width: 100%;
+    padding: 1em;
+  }
+
+  .service_title {
+    font-size: 1.8em;
+  }
+
+  .service_description {
+    font-size: 1.2em;
+  }
+
+  .project_one {
+    display: flex;
+    align-items: center;
+    margin: 2.5em 0em 0em 0em;
+  }
+
+  .image_two {
+    max-height: 700px;
+  }
+
+  .mobile {
+    margin-right: 1em;
+  }
+
+  .mobile_heading {
+    font-size: 2.6em;
+    margin-bottom: -0.5em;
+  }
+
+  .mobile_description {
+    font-size: 1.2em;
+  }
+
+  .project_two {
+    margin: 1em 0em 0em 3em;
+    width: 100%;
+  }
+
+  .web_heading {
+    font-size: 2.6em;
+  }
+  .web_description {
+    font-size: 1.2em;
+  }
+
+  .image_three {
+    max-height: 700px;
+  }
+
+  .project_three {
+    margin: 3em 0em -2em 0em;
+  }
+
+  .image_four {
+    max-height: 700px;
+  }
+
+  .design_heading {
+    font-size: 2.5em;
+    margin-bottom: -0.5em;
+  }
+
+  .design_description {
+    font-size: 1.2em;
+  }
+
+  .learn_more {
+    font-size: 1em;
+    margin-top: -0.5em;
+  }
+
+  .ready {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2em;
+    margin-top: 2em;
+  }
+
+  .ready_headline {
+    font-size: 2.5em;
+  }
+
+  .ready_body {
+    font-size: 1.2em;
+  }
+
+  .hire_button {
+    padding-top: 1em;
+    margin-left: -7em;
+  }
+
+  .bottom_logo {
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+  }
+
+  .bottom_logo a {
+    font-size: 1.6em;
+  }
+
+  .x2 a {
+    font-size: 1.8em;
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+  }
+
+  .bottom_nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bottom_nav {
+    margin-right: 2em;
+  }
+
+  .nav_menu_bottom {
+    padding-left: 3em;
+  }
+  .bottom_menu_title {
+    font-size: 1.3em;
+  }
+
+  .bottom_nav_link a {
+    font-size: 1em;
+  }
+
+  .copyright {
+    width: 100%;
+    font-size: 0.9em;
+    margin: 4em 0em 1em 0em;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) {
+  .intro {
+    margin: 2em 5em -0.5em 5em;
+  }
+
+  .project_one {
+    margin-bottom: 3.5em;
+    margin-top: -0.5em;
+  }
+
+  .project_two {
+    margin-top: -7em;
+    margin-bottom: 2em;
+  }
+  .project_three {
+    margin-top: -5em;
+  }
+}

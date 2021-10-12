@@ -1,0 +1,406 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  /* prevent horizontal scrolling */
+}
+
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 320px;
+  max-width: 100vw;
+  height: auto;
+}
+
+.body_wrapper {
+  margin: 0 auto;
+  max-width: 1600px;
+  /* make all content centered on larger screen */
+}
+
+/* nav section */
+.top_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  margin-top: -1em;
+}
+
+.top_nav a.active {
+  color: #0000ff;
+}
+
+.top_logo {
+  display: flex;
+  align-items: center;
+}
+
+.top_logo a {
+  text-decoration: none;
+  color: #424680;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.top_logo a:hover {
+  color: #0000ff;
+}
+
+.x a {
+  display: inline-flex;
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #0000ff;
+}
+
+.nav_menu {
+  display: flex;
+  margin-top: -0.5em;
+}
+
+.nav_link {
+  padding: 1.4em;
+  list-style-type: none;
+}
+
+.nav_link a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.nav_link a:hover {
+  color: #482ff7;
+}
+
+/* .hamburger menu */
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #0000ff;
+}
+
+/* quick intro section */
+.intro {
+  display: flex;
+  align-items: center;
+  margin: 5em 10em 0em 10em;
+}
+
+.intro div {
+  padding: 0.75em;
+}
+
+.brief {
+  line-height: 0.9;
+  width: 100%;
+  max-width: 40em;
+}
+
+.hi {
+  font-size: 4em;
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-weight: 700;
+  color: #f1b522;
+}
+.description {
+  font-family: sans-serif;
+  font-size: 1.3em;
+  color: #23286b;
+  line-height: 1.7;
+}
+
+.image_one {
+  height: auto;
+  max-width: 100%;
+  /* make the image responsive */
+}
+
+.hire {
+  padding: 1em 0.8em 1em 0.8em;
+  background-color: #f1b522;
+  /* border-radius: 360px; */
+  border: none;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+/* service section */
+.services {
+  background-color: #23286b;
+  height: auto;
+  width: 100%;
+}
+
+/* quick intro wrapper */
+.list {
+  display: flex;
+  margin: 0em 0em 0em 5em;
+  padding: 3em 0em 3em 0em;
+}
+
+.list div {
+  padding: 0em 1em 0em 0em;
+}
+
+.service_title {
+  font-size: 1.8em;
+  color: #1b58b4;
+  font-weight: 700;
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+.service_description {
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+/* projects section */
+.project_one {
+  display: flex;
+  align-items: center;
+  margin: 1em 3em 0em 4.5em;
+}
+
+.project_one div {
+  padding: 0.75em;
+}
+
+.mobile {
+  width: 100%;
+  margin-top: -5em;
+  margin-right: 1em;
+}
+
+.image_two {
+  height: auto;
+  max-width: 100%;
+}
+
+.mobile_heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.6em;
+  color: #23286b;
+}
+
+.mobile_description {
+  color: #23286b;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.learn_more {
+  font-size: 1em;
+}
+
+/* second project */
+.project_two {
+  display: flex;
+  align-items: center;
+  margin: -4em 3em 0em 4.5em;
+}
+
+.project_two div {
+  padding: 0.75em;
+}
+
+.web {
+  width: 100%;
+  margin-right: 1em;
+  margin-top: -0.5em;
+}
+
+.web_heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.6em;
+  color: #23286b;
+}
+
+.web_description {
+  color: #23286b;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.image_three {
+  height: auto;
+  max-width: 100%;
+}
+
+/* third project */
+.project_three {
+  display: flex;
+  align-items: center;
+  margin: -2em 3em 0em 4.5em;
+}
+
+.project_three div {
+  padding: 0.75em;
+}
+
+.design {
+  width: 100%;
+  max-width: 40em;
+  margin-right: 1em;
+  margin-top: -6em;
+}
+
+.image_four {
+  height: auto;
+  max-width: 100%;
+}
+
+.design_heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.6em;
+  color: #23286b;
+}
+
+.design_description {
+  color: #23286b;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* ready button */
+.ready {
+  height: auto;
+  background-color: #23286b;
+  justify-content: center;
+  display: flex;
+  padding: 2em 1em 2.5em 1em;
+}
+
+.ready_headline {
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.ready_body {
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+.ready_content {
+  color: white;
+}
+
+.hire_button {
+  padding-top: 2em;
+}
+
+.hire_me {
+  padding: 1em 0.8em 1em 0.8em;
+  margin-left: 10em;
+  background-color: #f1b522;
+  border: none;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+/* footer section */
+.bottom_logo {
+  margin-top: 1em;
+  margin-left: 1em;
+  padding: 0.4em;
+  align-items: center;
+  display: flex;
+}
+
+.bottom_logo a {
+  text-decoration: none;
+  color: #424680;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.bottom_logo a:hover {
+  color: #0000ff;
+}
+
+.x2 a {
+  display: inline-flex;
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #0000ff;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+}
+
+.bottom_nav {
+  display: flex;
+  margin-right: 3.6em;
+  line-height: 2em;
+  justify-content: flex-end;
+}
+
+.nav_menu_bottom {
+  padding-left: 6em;
+}
+
+.bottom_menu_title {
+  color: #23286b;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.bottom_nav_link {
+  list-style-type: none;
+}
+
+.bottom_nav_link a {
+  text-decoration: none;
+  color: #23286b;
+  font-size: 1.2em;
+}
+.bottom_nav_link a:hover {
+  color: #0000ff;
+}
+
+/* copyright */
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 0.9em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #14386d;
+  margin-top: 8em;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
